@@ -22,7 +22,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 echo 'Cloning the application code...'
-                git branch: 'main', url: 'https://github.com/Dreo57/Jenkins-CICD-pipeline-project.git'
+                git branch: 'main', url: 'https://github.com/Dreo57/Jenkins-CICD-pipeline-project-win.git'
             }
         }
         stage('Build') {
